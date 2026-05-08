@@ -52,10 +52,46 @@
 //	return 0;
 //}
 
-int a = 100;
-extern int a;//声明外部符号
+//int a = 100;
+//extern int a;//声明外部符号
+//int main()
+//{
+//	printf("%d\n", a);
+//	return 0;
+//}
+
 int main()
 {
-	printf("%d\n", a);
+	//printf("%d\n", -11 % 10);//-1
+	//printf("%d\n", 11 % -10);//1
+	/*int b = 5;
+	int c = 2;
+	c = b = a + 1;
+	a = a + 5;
+	a += 5;
+	a += 1;
+	a++;
+	++a;*/
+	/*int a = 10;
+	(double)a;
+	printf("%f\n", a);*/
+	/*printf("%d\n", b);
+	printf("%d\n", c);*/
+
+	//printf((const char*)100);
+	//char* p = "hello";
+	//p[0] = 'H';  // 编译通过，但运行时会崩溃（段错误）或行为未定义
+	/*printf("%zu\n", sizeof("hello"));
+	size_t a = printf("%s\n", "hello");
+	printf("%zu\n", a);*/
+	//char arr[] = "hello";   // arr 的类型是 char[6]
+	//char* ptr = "hello";    // ptr 的类型是 char*
+	//
+	//printf("%zu\n", sizeof(arr));   // 输出 6 (数组大小)
+	//printf("%zu\n", sizeof(ptr));   // 输出 8 (指针大小)
+	//printf("%s\n", "hello");
+	//printf("%c\n", 'b' - 'a');
+
+	printf("%d\n", printf("hello\n"));
 	return 0;
 }
